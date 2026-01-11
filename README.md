@@ -1,6 +1,6 @@
 ## This batch script removes garbage metadata files that are created when a **FAT32** or **exFAT** external drive is connected to an **iOS / iPadOS** or **macOS** device.
 
-```bat
+```batchfile
 D:
 del /s /q /f /a ._*
 del /s /q /f /a .Spotlight-V100
